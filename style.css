@@ -11,7 +11,7 @@
 
 .chegg-img{
     width: 100%;
-    margin: 20px auto;
+    margin: 4px auto;
     /* height: 600px; */
     /* object-fit: cover; */
 }
@@ -37,4 +37,40 @@
     border-radius: 30px;
     color: white;
     font-weight: 600;
+}
+
+
+.search{
+    border: 3px solid rgba(248, 177, 23, 0.7);
+    text-align: left;
+    margin: 15px 400px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.search:hover{
+    border: 3px solid #ff9100;
+}
+
+.btnSearch{
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    margin-right: 3px;
+    background-color: #ff9100;
+    border: none;
+    padding: 6.5px 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;    
+}
+
+
+
+.textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
 }
